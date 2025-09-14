@@ -1,0 +1,31 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Waste"
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Proident sit exercitation mollit voluptate consectetur non ea in eiusmod duis. Ea dolore sunt dolore duis occaecat commodo nisi velit culpa magna aliquip tempor qui est. Ex elit anim aute nisi amet adipisicing esse minim amet exercitation sunt consequat ullamco irure aliqua."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

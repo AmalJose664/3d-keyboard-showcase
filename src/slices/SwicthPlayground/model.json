@@ -1,0 +1,63 @@
+{
+  "id": "slice_playground",
+  "type": "SharedSlice",
+  "name": "SwicthPlayground",
+  "description": "SlicePlayground",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "strong,em,paragraph"
+          }
+        },
+        "switches": {
+          "type": "Group",
+          "config": {
+            "label": "Switches",
+            "repeat": true,
+            "fields": {
+              "switch": {
+                "type": "Link",
+                "config": {
+                  "label": "Switch",
+                  "select": "document",
+                  "repeat": false,
+                  "customtypes": [
+                    {
+                      "id": "switch",
+                      "fields": [
+                        "name",
+                        "hexcolor"
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
