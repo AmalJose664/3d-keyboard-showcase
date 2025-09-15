@@ -43,7 +43,7 @@ const SlicePlayground: FC<SlicePlaygroundProps> = ({ slice }) => {
 					{slice.primary.switches.map((item, i) => {
 						// console.log(item)
 						return (
-							<SharedCanvas key={"Canves " + +i} color={item.switch} />
+							<SharedCanvas key={"Canves " + i} color={item.switch} />
 						)
 					}
 					)}
