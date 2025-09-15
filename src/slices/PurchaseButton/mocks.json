@@ -1,0 +1,41 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"eyebrow": {
+				"__TYPE__": "FieldContent",
+				"value": "able",
+				"type": "Text"
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Still"
+						}
+					}
+				]
+			},
+			"button": {
+				"__TYPE__": "FieldContent",
+				"value": "box",
+				"type": "Text"
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Nisi minim aliquip culpa elit do elit in excepteur enim enim est et. Sint ipsum excepteur ut nisi reprehenderit elit pariatur exercitation voluptate magna labore adipisicing est elit. Velit do consequat esse do magna ut voluptate magna laboris."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

@@ -39,3 +39,6 @@
 .blue-gradient-bg {
   background: linear-gradient(to bottom, #000000, #0f172a, #062f4a, #7fa0b9);
 }
+html{
+	scroll-behavior: smooth;
+}
