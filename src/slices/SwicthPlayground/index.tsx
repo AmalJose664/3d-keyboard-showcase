@@ -40,10 +40,10 @@ const SlicePlayground: FC<SlicePlaygroundProps> = ({ slice }) => {
 				</div>
 
 				<FadeIn targetChildren className="grid grid-cols-1 gap-4 overflow-hidden sm:grid-cols-2">
-					{slice.primary.switches.map((item) => {
+					{slice.primary.switches.map((item, i) => {
 						// console.log(item)
 						return (
-							<SharedCanvas key={item.switch.id} color={item.switch} />
+							<SharedCanvas key={"Canves " + +i} color={item.switch} />
 						)
 					}
 					)}

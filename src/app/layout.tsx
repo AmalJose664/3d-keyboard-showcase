@@ -3,6 +3,7 @@ import { Roboto_Flex } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 const roboto_Flex = Roboto_Flex({
 	variable: "--font-roboto-flex",
@@ -32,6 +33,7 @@ export default function RootLayout({
 				<main>
 
 					{children}
+					<Analytics /> {/* 👈 Add here */}
 				</main>
 				<Footer />
 			</body>
