@@ -27,6 +27,14 @@ function LoaderWrapper() {
 			return () => clearTimeout(timer)
 		}
 	}, [active])
+	useEffect(() => {
+		const callApi = async () => {
+			const response = await fetch("/api/ip")
+			const data = await response.json()
+			console.log(data)
+		}
+		callApi()
+	}, [])
 	return (
 		<div className={clsx("motion-safe:transition-opacity motion-safe:duration-700", isLoading ? "opacity-100" : "opacity-0 pointer-events-none")}>
 			<Loader />
