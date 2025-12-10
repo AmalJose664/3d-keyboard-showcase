@@ -6,6 +6,7 @@ export async function GET(request: NextRequest) {
 		? forwardedFor.split(",")[0].trim()
 		: request.headers.get("x-real-ip") || "unknown";
 	console.log(ip,)
+
 	const API_KEY = process.env.DATA_SENT_SECRET
 	if (API_KEY) {
 
